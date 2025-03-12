@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <h1>AI STUDY PLANNER</h1>
 
 <h3>A unique study planning application that uses the OPENAI API to formulate personal study plans
@@ -7,7 +6,7 @@ depending on your availability and preferred study techniques.</h3>
 Tools to use to implement this:
 - Next.js
 - React
-- Firebase
+- Clerk
 - Tailwind CSS
 
 Functionality Goals:
