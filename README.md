@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <h1>AI STUDY PLANNER</h1>
 
 <h3>A unique study planning application that uses the OPENAI API to formulate personal study plans
