@@ -21,21 +21,17 @@ export const NavigationHeader = () => {
 
 export const NavigationFooter = () => {
     return (
-        <nav className="flex justify-right items-center p-4">
+        <nav className="flex justify-end items-center p-2 gap-4 w-full mix-blend-lighten">
             <Link href="https://github.com/asalee01" target="_blank" rel="noopener noreferrer">
-                <Image src="/gitHub.png"
-                alt = "GitHub"
-                width={70}
-                height={70}
-                className="rounded-lg shadow-lg hover:opacity-80"/>
+                <Image src="/gitHublogo.jpeg"
+                    alt="GitHub"
+                    width={40}
+                    height={40}
+                    className="rounded-lg shadow-lg hover:opacity-80" />
             </Link>
             <Link href="https://www.linkedin.com/in/athif-saleem-a76747274/" target="_blank" rel="noopener noreferrer">
-                <Image src ="/linkedIn.png"
-                alt = "LinkedIn"
-                width={70}
-                height={70}
-                className="rounded-lg shadow-lg hover:opacity-80"/>
-                </Link>
+                <Image src="/linkedInlogo.png" width={40} height = {40} alt="Description" className="w-10 h-10 rounded-lg shadow-lg hover:opacity-80" />
+            </Link>
         </nav>
     )
 }
